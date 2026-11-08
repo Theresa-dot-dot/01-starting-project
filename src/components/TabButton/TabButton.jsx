@@ -1,13 +1,9 @@
-function TabButton(props){
-
-    function handleClick(){
-        console.log('Hello World!');
-    }
+function TabButton(props, onSelect){
 
     return(
 
             <li>
-                <button onClick = {handleClick}>
+                <button onClick = {onSelect}>
                     {props.children}
                 </button>
             </li>
