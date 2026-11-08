@@ -1,5 +1,5 @@
-import { EXAMPLES } from "../../../assets/data";
-import TabButton from "../../TabButton/TabButton";
+import { EXAMPLES } from "../../assets/data";
+import TabButton from "../TabButton/TabButton";
 import { useState } from 'react';
 
 export default function Examples(){
