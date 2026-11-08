@@ -1,7 +1,7 @@
-import Header from './components/Header.jsx';
-import UserData from './UserData.jsx';
-import CoreConcept from './components/CoreConcept.jsx';
-import { CORE_CONCEPTS } from './data.js';
+import Header from './components/Header/Header.jsx';
+import UserData from './assets/UserData.jsx';
+import CoreConcept from './components/CoreConcept/CoreConcept.jsx';
+import { CORE_CONCEPTS } from './assets/data.js';
 function App() {
 
   return (
